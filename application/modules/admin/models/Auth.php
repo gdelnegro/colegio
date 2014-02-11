@@ -18,9 +18,9 @@ class Admin_Model_Auth
         
         $select = $authAdapter->getDbSelect();
         
-        $select->join( array('p' => 'perfil'), 
-                'p.idPerfil = usuarios.perfil', 
-                array('nomePerfil' => 'nomePerfil'));
+        #$select->join( array('p' => 'perfil'), 
+                #'p.idPerfil = usuarios.perfil', 
+                #array('nomePerfil' => 'nomePerfil'));
         
         $auth = Zend_Auth::getInstance();
         $result = $auth->authenticate($authAdapter);
