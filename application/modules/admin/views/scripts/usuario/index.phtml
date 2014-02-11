@@ -23,8 +23,8 @@
         <td><center><?php echo$user['dtAlteracao']?></center></td>
     <td><center><?php ?>GRUPO</center></td>
       <td><center>
-         <a href="<?php echo $this->url(array("module"=>"admin","controller"=>"users","action"=>"show","id"=>"{$user['idUsuario']}"),null,true)?>" title="Visualizar Cadastro"><i class='icon-eye-open'> </i></a>
-         <a href="<?php echo $this->url(array("module"=>"admin","controller"=>"users","action"=>"edit","id"=>"{$user['idUsuario']}"),null,true)?>" title="Editar Cadastro"><i class='icon-pencil'></i></a> 
+          <a href="<?php echo $this->url(array("module"=>"admin","controller"=>"users","action"=>"show","id"=>"{$user['idUsuario']}"),null,true)?>" title="Visualizar Cadastro"><span class="glyphicon glyphicon-eye-open"></span></a>
+          <a href="<?php echo $this->url(array("module"=>"admin","controller"=>"users","action"=>"edit","id"=>"{$user['idUsuario']}"),null,true)?>" title="Editar Cadastro"><span class="glyphicon glyphicon-pencil"></span></i></a> 
          </center>
       </td>
    </tr>
