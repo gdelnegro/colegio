@@ -7,14 +7,15 @@
 class Admin_Model_Usuario
 {
     
-    public $nome;
-    protected $_login;
-    private $_senha;
-    public $email;
-    protected $_grupo;
-    protected $_tabela;
-    protected $_chave;
-    public $banco;
+    public      $nome;
+    public      $email;
+    public      $banco;
+    protected   $login;
+    protected   $grupo;
+    private     $_senha;
+    protected   $_tabela;
+    protected   $_chave;
+    private     $_roleId;
     
     /**
      * 
